@@ -13,9 +13,11 @@ public class helloWorld {
 		// adding the third comment and will try on bash to upload
 		System.out.println("Uploaded with Bash");
 		// test to see if a pull was accomplished
+		// uplooad again with the changes made in gitbub
 	}
 
 }
 "# homework1"
 "# homework1"
+# homework1
 # homework1
