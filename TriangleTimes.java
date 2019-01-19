@@ -26,7 +26,7 @@ public class TriangleTimes extends JFrame {
 		getContentPane().setBackground(Color.PINK);
 		setAutoRequestFocus(false);
 		setVisible(true);
-		setSize(600, 600);
+		setSize(809, 600);
 		setTitle("Triangle Times!");
 		setAlwaysOnTop(true);
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -36,23 +36,23 @@ public class TriangleTimes extends JFrame {
 		lblNewLabel.setHorizontalAlignment(SwingConstants.CENTER);
 		lblNewLabel.setFont(new Font("Comic Sans MS", Font.BOLD | Font.ITALIC, 30));
 		lblNewLabel.setForeground(Color.BLUE);
-		lblNewLabel.setBounds(72, 33, 397, 43);
+		lblNewLabel.setBounds(220, 32, 397, 43);
 		getContentPane().add(lblNewLabel);
 
 		JLabel lblNewLabel_1 = new JLabel("Enter First Angle");
 		lblNewLabel_1.setHorizontalAlignment(SwingConstants.LEFT);
 		lblNewLabel_1.setFont(new Font("Times New Roman", Font.BOLD, 35));
-		lblNewLabel_1.setBounds(52, 121, 283, 50);
+		lblNewLabel_1.setBounds(149, 121, 283, 50);
 		getContentPane().add(lblNewLabel_1);
 
 		JLabel lblNewLabel_2 = new JLabel("Enter Second Angle");
 		lblNewLabel_2.setFont(new Font("Times New Roman", Font.BOLD, 35));
-		lblNewLabel_2.setBounds(52, 184, 299, 50);
+		lblNewLabel_2.setBounds(149, 184, 299, 50);
 		getContentPane().add(lblNewLabel_2);
 
 		JLabel lblEnterThirdAngle = new JLabel("Enter Third Angle");
 		lblEnterThirdAngle.setFont(new Font("Times New Roman", Font.BOLD, 35));
-		lblEnterThirdAngle.setBounds(52, 264, 299, 50);
+		lblEnterThirdAngle.setBounds(149, 264, 299, 50);
 		getContentPane().add(lblEnterThirdAngle);
 
 		angleOneTextField = new JTextField();
@@ -73,7 +73,7 @@ public class TriangleTimes extends JFrame {
 //				System.out.println(angleOneTextField.getText());
 			}
 		});
-		angleOneTextField.setBounds(395, 128, 116, 50);
+		angleOneTextField.setBounds(551, 122, 116, 50);
 		getContentPane().add(angleOneTextField);
 		angleOneTextField.setColumns(10);
 
@@ -96,7 +96,7 @@ public class TriangleTimes extends JFrame {
 //							System.out.println(angleTwoTextField.getText());
 		}
 	});
-		angleTwoTextField.setBounds(395, 191, 116, 50);
+		angleTwoTextField.setBounds(551, 185, 116, 50);
 		getContentPane().add(angleTwoTextField);
 		angleTwoTextField.setColumns(10);
 
@@ -119,7 +119,7 @@ public class TriangleTimes extends JFrame {
 //				System.out.println(angleThreeTextField.getText());
 			}
 		});
-		angleThreeTextField.setBounds(395, 264, 116, 50);
+		angleThreeTextField.setBounds(551, 265, 116, 50);
 		getContentPane().add(angleThreeTextField);
 		angleThreeTextField.setColumns(10);
 
@@ -134,14 +134,14 @@ public class TriangleTimes extends JFrame {
 				tryAnotherbtn.setEnabled(false);//set unavailable until another triangle found
 			}
 		});
-		tryAnotherbtn.setBounds(167, 433, 244, 71);
+		tryAnotherbtn.setBounds(294, 435, 244, 71);
 		getContentPane().add(tryAnotherbtn);
 
 		typeLabel = new JLabel("");
 		typeLabel.setForeground(Color.MAGENTA);
 		typeLabel.setHorizontalAlignment(SwingConstants.CENTER);
-		typeLabel.setFont(new Font("Comic Sans MS", Font.BOLD, 35));
-		typeLabel.setBounds(12, 335, 537, 50);
+		typeLabel.setFont(new Font("Comic Sans MS", Font.BOLD, 25));
+		typeLabel.setBounds(27, 327, 730, 50);
 		getContentPane().add(typeLabel);
 		
 		getContentPane().repaint();
